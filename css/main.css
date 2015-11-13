@@ -1,0 +1,78 @@
+/* *{outline: 1px solid green;} */
+body{ background: #2F4F4F;}
+
+.contenedor{
+	background: url("../img/grupal.jpg") center; /*bottom*/
+	height: 860px;
+	background-size:cover ;
+	margin-bottom: -15px;
+}
+#menu{
+	margin-left:850px;
+	padding-top:15px;
+
+}
+#menu li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
+	
+}
+#menu ul a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+#logo{
+	width: 340px;
+	display: block;
+	margin: auto;
+}
+#sumate{
+	display: inline-block;
+	width: 150px;
+	height: 35px;
+	background: orange;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+	left:  150px;
+	top: 50px;
+}
+#sumate a {
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+}
+.tres{
+	width: 1333px;
+	height: 250px;
+	padding: 45px 0 45px 0;
+	background: white;
+}
+.tres li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+.tres ul li img{
+	width: 300px;
+	height: 200px;
+}
+.tres ul li p{
+	margin: 0;
+	font-family: sans-serif;
+	border-bottom: solid black 1px;
+	width: 300px;
+}
+#caja{
+	width: 1050px;
+	height: 230px;
+	margin: auto;
+}
+footer{
+	color: white;
+	font-family: sans-serif;
+	padding: 30px 0 25px 190px;
+}
